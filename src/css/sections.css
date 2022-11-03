@@ -6,7 +6,7 @@
 }
 .section__div{
     display:flex;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: center;
     width: 80%;
     margin: 0 auto;
@@ -14,10 +14,18 @@
 
 .section__h2{
     height:1.8em;
-    background: grey;
+    background: rgb(78, 75, 75);
     font-size: 2em;
+    display: flex;
+    align-items: center;
+    padding-left: .5em;
 }
 
 .img{
-    max-width: 13em;    
+    width: 10em;   
+}
+
+.img-css{
+    width: 7.5em;
+    margin-right: 1.2em;
 }
