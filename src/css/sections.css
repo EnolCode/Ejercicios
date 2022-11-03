@@ -6,7 +6,7 @@
 }
 .section__div{
     display:flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     width: 80%;
     margin: 0 auto;
@@ -22,10 +22,14 @@
 }
 
 .img{
-    width: 10em;   
+    width: 12em;   
+    float: left;
+    justify-self: top;
+    height: 15em;
+    float: left;
 }
 
 .img-css{
-    width: 7.5em;
+    width: 10em;
     margin-right: 1.2em;
 }
