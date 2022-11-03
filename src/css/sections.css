@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.section__div{
+    display:flex;
+    /*align-items: center;*/
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section__h2{
+    height:1.8em;
+    background: grey;
+    font-size: 2em;
+}
+
+.img{
+    max-width: 13em;    
+}

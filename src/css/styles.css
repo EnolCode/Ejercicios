@@ -1,0 +1,12 @@
+@import "./header.css";
+@import "./sections.css";
+body{
+    display:flex;
+    justify-content: center;
+}
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
